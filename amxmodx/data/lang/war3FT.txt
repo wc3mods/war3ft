@@ -333,3 +333,414 @@ DOD_AWARDED_XP_OBJECTIVE = You are awarded %d XP for completing an objective
 DOD_PHOENIX = You are given a bonus $%d because a nearby teammate (%s) with Phoenix has killed an enemy
 HEX_NO_ABILITY = You may not use this ability while you are hexed
 MENU_WORD_EXPERIENCE = Expe r ience
+
+
+[tc]
+SHOP1_ITEM0_NAME                = 無
+SHOP1_ITEM1_NAME                = 重生聖符
+SHOP1_ITEM2_NAME                = 疾跑之靴
+SHOP1_ITEM3_NAME                = 攻擊之爪 +6
+SHOP1_ITEM4_NAME                = 暗影斗篷
+SHOP1_ITEM5_NAME                = 索比面具
+SHOP1_ITEM6_NAME                = 防護護符
+SHOP1_ITEM7_NAME                = 防護之戒 +5
+SHOP1_ITEM8_NAME                = 經驗之書
+
+SHOP1_ITEM0_DESC                = 無描述
+SHOP1_ITEM1_DESC                = 玩家被擊殺時，有 <%s> 機率在下一回合攜帶死亡時所有物品重生。
+SHOP1_ITEM2_DESC                = 提升玩家最大移動速度 <%s>，所有武器移動速度一致。
+SHOP1_ITEM3_DESC                = 每次成功攻擊額外造成 <%s> 傷害。
+SHOP1_ITEM4_DESC                = 使玩家隱形 <%s>。若玩家攻擊、被攻擊或施放終極技能，將會現形。
+SHOP1_ITEM5_DESC                = 每次施放終極技能後，冷卻時間縮短 <%s> 秒。
+SHOP1_ITEM6_DESC                = 可抵擋 <%s> 次針對自身的有害終極技能。
+SHOP1_ITEM7_DESC                = 玩家獲得 <%s> 護甲，若已有護甲，最大護甲上限也增加相同數值。
+SHOP1_ITEM8_DESC                = 立即獲得 <%s> 經驗值。該物品於購買後即消耗，且不佔用物品欄。
+
+RACENAME1                       = 不死族天譴軍團
+RACENAME2                       = 人類聯盟
+RACENAME3                       = 獸人部落
+RACENAME4                       = 夜精靈哨兵部隊
+
+RACENAME1_SHORT                 = 不死族
+RACENAME2_SHORT                 = 人類
+RACENAME3_SHORT                 = 獸族
+RACENAME4_SHORT                 = 夜精靈
+
+RACE1_SKILL0                    = 邪惡光環
+RACE1_SKILL1                    = 吸血光環
+RACE1_SKILL2                    = 冰霜新星
+RACE1_SKILL3                    = 冰霜護甲
+RACE1_ULTIMATE1                 = 死亡纏繞
+RACE1_ULTIMATE2                 = 刺穿
+RACE1_ULTIMATE3                 = 沉睡術
+
+RACE2_SKILL0                    = 堅韌
+RACE2_SKILL1                    = 隱形術
+RACE2_SKILL2                    = 重擊
+RACE2_SKILL3                    = 激勵之火
+RACE2_ULTIMATE1                 = 聖光術
+RACE2_ULTIMATE2                 = 火焰強擊
+RACE2_ULTIMATE3                 = 化身
+
+RACE3_SKILL0                    = 回復
+RACE3_SKILL1                    = 狂暴
+RACE3_SKILL2                    = 粉碎重擊
+RACE3_SKILL3                    = 掠奪
+RACE3_ULTIMATE1                 = 治療波
+RACE3_ULTIMATE2                 = 連鎖閃電
+RACE3_ULTIMATE3                 = 風行術
+
+RACE4_SKILL0                    = 艾露恩的恩典
+RACE4_SKILL1                    = 閃避
+RACE4_SKILL2                    = 自然的祝福
+RACE4_SKILL3                    = 精準光環
+RACE4_ULTIMATE1                 = 回春術
+RACE4_ULTIMATE2                 = 糾纏根鬚
+RACE4_ULTIMATE3                 = 暗影突襲
+
+RACE1_SKILL0_DESC               = 增加玩家最大移動速度 <%s>。所有武器的移動速度一致。玩家的重力也降低 <%s>。
+RACE1_SKILL1_DESC               = 玩家每次成功攻擊時，會回復 <%s> 傷害值作為生命。
+RACE1_SKILL2_DESC               = 玩家死亡時，周圍 <%s> 公尺內的敵人會受到 <%s> 傷害，並被緩速最多 <%s> 秒。
+RACE1_SKILL3_DESC               = 購買護甲時，會在玩家周圍生成冰霜護盾。護盾可增加 <%s> 最大護甲，並有 <%s> 機率使攻擊者被緩速 <%s> 秒。
+RACE1_ULTIMATE1_DESC            = 對敵方活體單位造成 <%s> 傷害，或對友方不死單位治療 <%s> 生命值的死亡纏繞。
+RACE1_ULTIMATE2_DESC            = 用巨爪刺穿敵方玩家，造成 <%s> 傷害並將其高高拋起，可能導致大量墜落傷害。
+RACE1_ULTIMATE3_DESC            = 使目標敵方玩家沉睡 <%s> 秒。沉睡期間無法攻擊也無法被攻擊。
+
+RACE2_SKILL0_DESC               = 提高玩家最大生命值至 <%s>。
+RACE2_SKILL1_DESC               = 玩家使用匕首時隱蔽性提升 <%s>。若玩家攻擊、被攻擊或施放終極技能，會顯形。隱形時無法被選取。
+RACE2_SKILL2_DESC               = 每次攻擊有 <%s> 機率造成額外 <%s> 傷害並暈眩敵人 <%s> 秒。
+RACE2_SKILL3_DESC               = 玩家獲得 <%s> 額外護甲，並在有護甲時增加 <%s> 傷害。
+RACE2_ULTIMATE1_DESC            = 神聖之光可治療友方活體玩家 <%s>，或對敵方不死玩家造成 <%s> 傷害。
+RACE2_ULTIMATE2_DESC            = 召喚一柱火焰，每秒對玩家造成 <%s> 傷害。走出火焰後仍會受到 <%s> 每秒傷害，持續 <%s> 秒。火焰持續 <%s> 秒。
+RACE2_ULTIMATE3_DESC            = 暫時提升玩家 <%s> 生命值，並獲得法術免疫與所有攻擊 <%s> 額外傷害，持續 <%s> 秒。
+
+RACE3_SKILL0_DESC               = 玩家每 <%s> 秒回復 <%s> 點生命值或護甲值。
+RACE3_SKILL1_DESC               = 玩家生命值降低時，使用匕首與手榴彈的速度最多提升 <%s>。當生命值低於 <%s> 時，傷害最高可增加 <%s>。效果隨生命值越低而提升。
+RACE3_SKILL2_DESC               = 所有手榴彈攻擊對 <%s> 公尺內敵人造成 <%s> 範圍傷害。
+RACE3_SKILL3_DESC               = 玩家每次成功攻擊有 <%s> 機率竊取對方的彈藥、手榴彈或金錢。
+RACE3_ULTIMATE1_DESC            = 召喚治療波動，最多彈跳 <%s> 次，對初始目標回復 <%s> 生命，每次彈跳回復量減少 <%s>。
+RACE3_ULTIMATE2_DESC            = 投擲一道閃電，對目標敵人造成 <%s> 傷害，並跳躍至最多 <%s> 名附近敵人。每次跳躍傷害減少 <%s>。
+RACE3_ULTIMATE3_DESC            = 玩家變為 <%s> 隱形並獲得 <%s> 移動速度加成，持續 <%s> 秒。風行期間以匕首攻擊會造成額外 <%s> 傷害。切換武器將取消風行狀態。
+
+RACE4_SKILL0_DESC               = 玩家受到的匕首傷害降低 <%s>，終極技能傷害降低 <%s>。
+RACE4_SKILL1_DESC               = 玩家有 <%s> 機率完全閃避一次攻擊。
+RACE4_SKILL2_DESC               = 玩家最大護甲提高 <%s>，在有護甲時各類武器的移動速度最多提升 <%s>，但總體不超過匕首速度。
+RACE4_SKILL3_DESC               = 玩家使用射擊武器時造成額外 <%s> 傷害。
+RACE4_ULTIMATE1_DESC            = 在 <%s> 秒內為一名友方玩家恢復 <%s> 生命值。
+RACE4_ULTIMATE2_DESC            = 讓樹根從地面爆發，禁錮敵方單位 <%s> 秒，並在此期間造成 <%s> 傷害。
+RACE4_ULTIMATE3_DESC            = 向敵方玩家投擲一把劇毒匕首，造成 <%s> 初始傷害與 <%s> 毒性傷害，持續 <%s> 秒。並減緩其移動速度 <%s>。
+
+RACE1_CLASS0                    = 侍僧
+RACE1_CLASS1                    = 食屍鬼
+RACE1_CLASS2                    = 憎惡
+RACE1_CLASS3                    = 死亡騎士
+RACE1_CLASS4                    = 地穴領主
+RACE1_CLASS5                    = 恐懼魔王
+
+RACE2_CLASS0                    = 農民
+RACE2_CLASS1                    = 步兵
+RACE2_CLASS2                    = 騎士
+RACE2_CLASS3                    = 聖騎士
+RACE2_CLASS4                    = 血法師
+RACE2_CLASS5                    = 山丘之王
+
+RACE3_CLASS0                    = 苦工
+RACE3_CLASS1                    = 鬥士
+RACE3_CLASS2                    = 牛頭人
+RACE3_CLASS3                    = 暗影獵手
+RACE3_CLASS4                    = 先知
+RACE3_CLASS5                    = 劍聖
+
+RACE4_CLASS0                    = 小精靈
+RACE4_CLASS1                    = 弓箭手
+RACE4_CLASS2                    = 獵人
+RACE4_CLASS3                    = 德魯伊
+RACE4_CLASS4                    = 森林守護者
+RACE4_CLASS5                    = 守望者
+
+UPKEEP_NAME1                    = 無維持費
+UPKEEP_NAME2                    = 低維持費
+UPKEEP_NAME3                    = 高維持費
+
+; Status Messages
+
+CANT_TARGET                     = 無法選取目標玩家。
+CANT_TARGET_SELF                = 無法對自己施放。
+CANT_TARGET_HOLYLIGHT           = 必須選取友方生者或敵方不死族玩家為目標。
+CANT_TARGET_DEATHCOIL           = 必須選取友方不死族或敵方生者為目標。
+CANT_TARGET_AIR                 = 目標必須位於地面上。
+CANT_TARGET_SLEEP               = 無法選取沉睡中的玩家。
+CANT_TARGET_INVIS               = 無法選取隱形玩家。
+
+FULLHEALTH_TARGET               = 目標生命值已滿。
+FULLHEALTH_SELF                 = 你的生命值已滿。
+
+HEAL_TARGET                     = %s 為你恢復了 %d 點生命值。
+HEAL_SELF                       = 你為自己恢復了 %d 點生命值。
+HEAL_CAST                       = 你已對隊友施放治療。
+
+AMULET_BLOCK_CASTER             = 你的終極技能被阻擋了。
+AMULET_BLOCK_TARGET             = 你已阻擋了一個有害的終極技能。
+
+CAST_DEATHCOIL                  = %s 對你施放了死亡纏繞，你受到 %d 點傷害。
+CAST_SLEEP                      = %s 使你陷入沉睡。
+CAST_HOLYLIGHT                  = %s 對你施放了聖光術，你受到 %d 點傷害。
+CAST_FLAMESTRIKE                = %s 在你身邊召喚了火焰之柱。
+CAST_AVATAR                     = 你的身體充滿力量！
+CAST_CHAINLIGHTNING             = %s 對你施放了閃電鏈，你受到 %d 點傷害。
+CAST_CHAINLIGHTNING_JUMP        = %s 的閃電鏈跳躍至你身上，你受到 %d 點傷害。
+CAST_ROOTS                      = 你被 %s 的根鬚束縛。
+CAST_SHADOWSTRIKE               = %s 對你施放了暗影突襲。
+CAST_WINDWALK                   = 你的突襲造成了 %d 點傷害。
+
+FINISH_SLEEP                    = 你已不再昏睡。
+FINISH_WINDWALK                 = 你的疾風步結束了。
+FINISH_AVATAR                   = 你的力量正在衰退。
+
+DAMAGE_FROSTNOVA                = %s 的冰霜新星對你造成 %d 點傷害。
+DAMAGE_PULVERIZE                = 你被粉碎打擊，受到 %d 點傷害。
+DAMAGE_ELUNE                    = 伊露恩的恩典吸收了 %d 點傷害。
+DAMAGE_EVASION                  = 成功閃避了 %d 點傷害。
+
+REJUVINATE_SELF                 = 你對自己施放了回春術。
+REJUVINATE_TARGET               = %s 對你施放了回春術。
+REJUVINATE_ALREADY              = 目標已處於回春狀態。
+
+ARMOR_MESSAGE_UD                = 寒冰護盾籠罩著你。
+ARMOR_MESSAGE_HU                = 你體內燃起了內在之火。
+ARMOR_MESSAGE_OR                = 你與你的護甲合而為一。
+ARMOR_MESSAGE_NE                = 你受到自然的祝福。
+
+ARMOR_MESSAGE_FADE_UD           = 你的冰霜護甲已消散。
+ARMOR_MESSAGE_FADE_HU           = 你的內在之火已消退。
+ARMOR_MESSAGE_FADE_OR           = 你的護甲效果已消失。
+ARMOR_MESSAGE_FADE_NE           = 你不再受到自然的祝福。
+
+ULTIMATE_READY                  = 終極技能已準備就緒。
+ULTIMATE_NOTREADY               = 終極技能尚未準備好。
+ULTIMATE_NOTREADY_COOLDOWN      = 終極技能尚未準備好。^n（剩餘 %d 秒）
+ULTIMATE_NOTFOUND               = 找不到終極技能。
+ULTIMATE_RESTRICTED             = 此地圖禁用終極技能。
+ULTIMATE_NOCAST_VIP             = VIP 無法施放終極技能！
+ULTIMATE_NOCAST_PISTOL          = 手槍回合中無法施放終極技能。
+ULTIMATE_NOCAST_AIR             = 必須站在地面上才能施放終極技能。
+ULTIMATE_NOCAST_SLEEP           = 昏睡狀態下無法施放終極技能。
+
+INFO_GAINLEVEL                  = 你升級了！你現在是 %d 級！
+INFO_NEWRACENEXTROUND           = 下一回合你將以 %s 種族重生。
+INFO_NEWRACENOW                 = 正在將你的種族切換為 %s...
+INFO_NOSKILLPOINTS              = 你已經使用完所有技能點數！
+
+INFO_RESTRICTEDMAP_HUD          = 目前地圖僅允許短期經驗值累積。
+
+INFO_FOLLOW_NORACE              = 尚未選擇種族
+INFO_FOLLOW_MESSAGE_1           = %s 等級 %i 經驗值：%i/%i（%i%%）
+INFO_FOLLOW_MESSAGE_2           = 裝備：%s 背包：%s
+INFO_FOLLOW_MESSAGE_3           = 生命值：%i 護甲：%i 金錢：%i
+
+; Center Screen Messages
+
+ITEM_INSUFFICIENT_FUNDS         = 金錢不足！
+ITEM_EQUIPPED                   = 裝備已經配戴！
+ITEM_UNAVAILABLE                = 裝備無法取得
+ITEM_NOBONUS                    = 裝備不再提供加成！
+ITEM_NOARMOR                    = 必須先購買護甲！
+ITEM_NOMASK                     = 你沒有終極技能！
+ITEM_DROP                       = 裝備已被丟棄！
+ITEM_PICKUP                     = 裝備已裝備上！
+ITEM_NODROP                     = 尚未裝備任何物品！
+ITEM_ANKH_NOITEMS               = 沒有可復活的物品！
+ITEM_TOME_MESSAGE               = * 你從該書籍中獲得了 %d 點經驗值 *
+
+INFO_SHOP_DISABLED              = 商店選單已被伺服器停用！
+INFO_SHOP_VIP                   = VIP 無法購買物品！
+INFO_SHOP_BUYZONE               = 必須在購買區域內才能購買！
+
+INFO_NOTCONNECTED               = 必須等到下一回合才可行動。
+
+; Chat Messages
+
+ITEM_ANKH_MESSAGE               = 你有 %d%% 的機率在下一回合復活時保留武器。
+ITEM_BOOTS_MESSAGE              = 你的最大移動速度提升了 %0.1f%%。
+ITEM_CLAWS_MESSAGE              = 你的所有攻擊將額外造成 %d 點傷害。
+ITEM_CLOAK_MESSAGE              = 你現在降低了 %0.0f%% 的可視度，並在隱形時無法被終極技能鎖定。
+ITEM_MASK_MESSAGE               = 你的終極技能冷卻時間已從 %0.1f 秒縮短為 %0.1f 秒。
+ITEM_AMULET_MESSAGE             = 你現在可以格擋 %d 次針對你的有害終極技能。
+ITEM_RING_MESSAGE               = 你的最大護甲提升至 %d。
+ITEM_BUYBACK_MESSAGE            = 你以 $%d 售出了 %s！
+ITEM_AMULET_DESTROYED           = 你的護身符已被摧毀。
+
+VIP_ANKH_MESSAGE                = 當你不再是 VIP 時，你的武器將會恢復。
+VIP_NOSKILLS                    = VIP 無法使用技能或終極技能。
+
+INFO_LEVEL_FIRST                = 你的第一個所選種族已自動獲得等級 %d！
+INFO_LEVEL_OTHER                = 你所選擇的種族已獲得等級 %d。
+
+INFO_CURRENTSKILLS              = 目前技能:
+INFO_SKILLDETAILS               = 請在聊天中輸入 '/skills' 以查看詳細技能資訊。
+
+INFO_RESETSKILLS                = 你的技能已成功重置。
+INFO_RESETULTIMATE              = 你的終極技能已成功重置。
+INFO_RESETXP                    = 你的 %s 經驗值已成功重置。
+
+INFO_RESTRICTEDMAP_CHAT         = 目前地圖僅支援短期經驗值，別擔心，你的長期經驗值並未被刪除。
+INFO_DISABLEDMAP_CHAT           = %s 已在本地圖中被禁用。
+INFO_GENERATEHELP_CHAT          = * [WC3x] 幫助檔案已產生。
+
+UPKEEP_MESSAGE                  = 你的隊伍目前處於 %s 狀態。
+
+;Enabled/Disable
+
+WAR3X_FORMAT                    = 格式錯誤 - 用法: war3x < on | off >
+WAR3_ENABLED                    = %s 現已啟用。
+WAR3_DISABLED                   = %s 現已停用。
+WAR3_ENABLED_ALREADY            = %s 已經是啟用狀態。
+WAR3_DISABLED_ALREADY           = %s 已經是停用狀態。
+
+WAR3_ENABLED_HUD                = %s 已被啟用^n回合將重新開始
+WAR3_DISABLED_HUD               = %s 已被停用^n回合將重新開始
+
+;Help Messages
+
+WAR3X_MOTD_ITEMS                = 物品資訊
+WAR3X_MOTD_PLAYERSKILLS         = 玩家技能
+
+MOTD_PS_CURRENTSKILLS           = 目前技能
+MOTD_PS_CURRENTULTIMATE         = 目前終極技能
+MOTD_PS_NOSKILL                 = (尚未分配技能點)
+MOTD_PS_ALLLEVELS               = 所有種族等級
+
+HELP_HEADER_RACIAL              = <h3>種族能力</h3>此技能會隨等級自動提升。
+HELP_HEADER_SKILLS              = <h3>可訓練技能</h3>這些技能可在升級時強化。
+HELP_HEADER_ULTIMATES           = <h3>終極技能</h3>在達到 %d 級以上時可以選擇一項。使用終極技能請在控制台輸入 '<i>bind KEY ultimate</i>' 綁定按鍵。
+HELP_HEADER_ITEMS               = <h3>概覽</h3>以下物品可透過主選單中的商店選單購買。你也可以在控制台輸入 '<i>bind KEY shopmenu</i>' 綁定按鍵。^n
+
+;XP Messages
+
+XP_KILLSTREAK_MESSAGE           = 您連殺 %d 名敵人，獲得 %d 額外經驗值！
+XP_KILLVIP_MESSAGE              = 您擊殺了 VIP，獲得 %d 額外經驗值！
+XP_KILLPLANTER_MESSAGE          = 您擊殺了正在安放炸彈的玩家，獲得 %d 額外經驗值！
+XP_KILLDEFUSER_MESSAGE          = 您擊殺了正在拆彈的玩家，獲得 %d 額外經驗值！
+XP_HOSTAGE_KILLRESCUER_MESSAGE  = 您擊殺了正試圖救援人質的玩家，獲得 %d 額外經驗值！
+XP_KILLASSIST_MESSAGE           = 您協助擊殺敵人，獲得 %d 經驗值！
+XP_TEAMKILL_MESSAGE             = 您誤殺了隊友，損失 %d 經驗值！
+
+XP_HOSTAGE_TOUCH_MESSAGE        = 你因開始護送人質到安全區而獲得 %d 經驗值！
+XP_HOSTAGE_SHARE_MESSAGE        = 你因護送人質到救援區而獲得 %d 經驗值！
+XP_KILLHOSTAGE_MESSAGE          = 你因殺害過多人質而損失 %d 經驗值。
+XP_BOMBPICKUP_MESSAGE           = 你持有炸彈！成功安放炸彈可獲得 %d 額外經驗值！
+XP_BOMBPLANT_MESSAGE            = 你因安放炸彈而獲得 %d 經驗值！
+XP_BOMBPLANT_SHARE_MESSAGE      = 你因協助安放炸彈而獲得 %d 經驗值！
+XP_DEFUSE_MESSAGE               = 你因拆除炸彈而獲得 %d 經驗值！
+XP_DEFUSE_SHARE_MESSAGE         = 你因協助拆除炸彈而獲得 %d 經驗值！
+XP_VIPSPAWN_MESSAGE             = 你是 VIP！成功逃脫可獲得 %d 額外經驗值！
+XP_VIPESCAPE_MESSAGE            = 你因成功逃脫而獲得 %d 經驗值！
+XP_VIPESCAPE_SHARE_MESSAGE      = 你因護送 VIP 到安全區而獲得 %d 經驗值！
+
+XP_TARGETBOMBED_MESSAGE         = 所有恐怖份子因成功炸毀目標獲得 %d 經驗值！
+XP_TARGETSAVED_CT_MESSAGE       = 所有反恐小組因成功保護目標獲得 %d 經驗值！
+XP_TARGETSAVED_T_MESSAGE        = 你因未嘗試完成目標而損失 %d 經驗值。
+XP_VIPNOTESCAPE_T_MESSAGE       = 所有恐怖份子因成功阻止 VIP 逃脫獲得 %d 經驗值！
+XP_VIPNOTESCAPE_VIP_MESSAGE     = 你因未完成 VIP 任務而損失 %d 經驗值。
+XP_HOSTAGENOTRESCUED_T_MESSAGE  = 所有恐怖份子因成功阻止人質被救援獲得 %d 經驗值！
+XP_HOSTAGENOTRESCUED_CT_MESSAGE = 你因未嘗試拯救人質而損失 %d 經驗值。
+XP_ALLHOSTAGESRESCUED_MESSAGE   = 所有反恐小組因成功救出所有人質獲得 %d 經驗值！
+
+XP_MAX_MESSAGE                  = 你的經驗值已達上限！
+XP_MAX_BOMBPICKUP_MESSAGE       = 你持有炸彈！快去安放它來幫助隊友獲得經驗值！
+XP_MAX_VIPSPAWN_MESSAGE         = 你是 VIP！快設法逃脫來幫助隊友獲得經驗值！
+
+XP_SUPPORT_HEALMSG              = 你因恢復隊友 %d 點生命值而獲得 %d 經驗值。
+XP_SUPPORT_HEALMSG_MAX          = 你已恢復隊友 %d 點生命值。
+
+;Server Console Messages
+
+CONSOLE_DISABLEDMAP_1           = 正在為目前地圖 (%s) 停用 %s。
+CONSOLE_DISABLEDMAP_2           = 注意：停用地圖列表可在 %s/disabled_maps.cfg 中編輯。
+CONSOLE_SHORTTERMMAP_1          = 目前地圖 (%s) 使用短期經驗系統。
+CONSOLE_SHORTTERMMAP_2          = 注意：僅限短期經驗的地圖列表可在 %s/short_term_maps.cfg 中編輯。
+
+CONSOLE_WELCOME_VERSION         = 歡迎，%s，本伺服器運作的是 %s (%s) (%s)
+CONSOLE_WELCOME_COMMANDS        = 輸入 '/war3help' 以查看可用指令列表。
+
+ERROR_MISSING_FILES             = 錯誤：您的 %s 安裝缺少以下文件：
+ERROR_MISSING_OPTIONAL          = 注意：上述文件為可選。如果您擁有 %s 的原始碼，可透過編輯 war3x/setup.cfg，將 %s 定義設為 0 並重新編譯來禁用缺少的文件。
+ERROR_MISSING_REQUIRED          = 注意：上述文件為必需。插件無法運行，除非這些文件被正確複製到指定資料夾。請查看插件附帶的安裝說明，必要時重新安裝以解決此錯誤。
+
+ERROR_NO_ACCESS                 = 您無權使用該指令。
+ERROR_ARGUMENTS                 = 參數數量無效。
+
+WARNING_MISSING_FILES           = 警告：您的 %s 安裝缺少以下可選文件：
+WARNING_MISSING_LISTED          = 注意：上述文件非 %s 目前配置運作必需，但安裝後能提升伺服器體驗。請參閱插件附帶的安裝說明了解詳情。
+WAR3X_SETXP_FORMAT              = 格式為：%s < 玩家名稱或部分名稱 > < 種族名稱或部分名稱 > < [+/-] 新數值 >
+WAR3X_SETXP_CONFIRM             = 已為 %s 的 %s 角色設定新數值。舊經驗值：%d，新經驗值：%d
+
+WAR3X_SETXP_ERROR_RACENAME      = 錯誤：無效的種族名稱。
+WAR3X_SETXP_WARNING_NOPLAYER    = 警告：找不到符合「%s」的玩家。
+WAR3X_SETXP_WARNING_NORACE      = 警告：尚未取得 %s 的經驗值資訊。
+WAR3X_SETXP_WARNING_VALUES      = 警告：新舊數值相同。
+
+WAR3X_SETXP_XP_ADD              = %s 已賦予你的 %s 角色 %d 點經驗值。
+WAR3X_SETXP_XP_REMOVE           = %s 已從你的 %s 角色移除 %d 點經驗值。
+WAR3X_SETXP_XP_CHANGE           = %s 已將你 %s 角色的經驗值設為 %d。
+WAR3X_SETXP_LEVEL_ADD           = %s 已賦予你的 %s 角色 %d 個等級。
+WAR3X_SETXP_LEVEL_REMOVE        = %s 已從你的 %s 角色移除 %d 個等級。
+WAR3X_SETXP_LEVEL_CHANGE        = %s 已將你的 %s 角色設為等級 %d。
+
+;Menu Titles ( please do not remove formatting ^n\w\y\r\R
+
+MENU_WAR3MENU_TITLE             = \y魔獸爭霸 3 選單�^n^n\w
+MENU_SELECTRACE_TITLE           = \y選擇種族�^n^n
+MENU_SELECTSKILLS_TITLE         = \y選擇技能�^n
+MENU_BUYITEM_TITLE              = \y購買道具�\R$   花費 ^n^n
+MENU_SKILLSINFO_TITLE           = \y技能資訊 ^n^n\w
+MENU_PLAYEROPTIONS_TITLE        = \y玩家選項�^n^n\w
+MENU_RACEOPTIONS_TITLE          = \y重置選項�^n
+MENU_ADMINOPTIONS_TITLE         = \y管理員選項 ^n^n\w
+
+;Menu Options
+
+MENU_WAR3MENU_1                 = 選擇種族
+MENU_WAR3MENU_2                 = 選擇技能
+MENU_WAR3MENU_3                 = 購買道具
+MENU_WAR3MENU_4                 = 顯示等級/技能
+MENU_WAR3MENU_5                 = 玩家技能
+MENU_WAR3MENU_6                 = 玩家選項
+MENU_WAR3MENU_7                 = 重置技能/終極技能/經驗值
+MENU_WAR3MENU_8                 = 管理員選項
+MENU_WAR3MENU_9                 = 幫助主題
+
+MENU_PLAYEROPTIONS_1            = 顯示種族圖示
+MENU_PLAYEROPTIONS_2            = 顯示生命值圖示
+MENU_PLAYEROPTIONS_3            = 顯示驅散圖示
+MENU_PLAYEROPTIONS_4            = 對隊友自動施法
+MENU_PLAYEROPTIONS_5            = HUD 訊息位置
+
+MENU_RACEOPTIONS_1              = 重置技能
+MENU_RACEOPTIONS_2              = 重置終極技能
+MENU_RACEOPTIONS_5              = 重置經驗值
+
+;Common Words
+
+LANG_CATEGORY                   = 類別
+LANG_PRIMARY_WEAPON             = 主武器
+LANG_SECONDARY_WEAPON           = 副武器
+LANG_GRENADES                   = 手榴彈
+LANG_PLAYERS                    = 玩家
+LANG_LEVEL                      = 等級
+LANG_RACIAL                     = 種族能力
+LANG_CLASS                      = 職業
+LANG_SKILLS                     = 技能
+LANG_ULTIMATE                   = 終極技能
+LANG_ON                         = 開啟
+LANG_OFF                        = 關閉
+LANG_RESTRICTED                 = 限制
+LANG_ALLOWED                    = 允許
+LANG_DISABLED                   = 已停用
+LANG_RANDOM                     = 隨機
+LANG_HELP                       = 說明
+LANG_CANCEL                     = 取消
+
+
+[de]
+; Your language here!
