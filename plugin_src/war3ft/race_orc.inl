@@ -105,7 +105,7 @@ public _OR_ULT_ChainLightning( parm[5] )
 	if ( iClosestTarget )
 	{
 		// Damage should be decreased by 2/3 on each jump
-		parm[1] = floatround(float(parm[2])*2/3);
+		parm[1] = floatround(float(parm[1])*2/3);
 
 		// Decrease line width as well
 		parm[2] = floatround(float(parm[2])*2/3);
