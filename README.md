@@ -18,6 +18,12 @@ To use this plugin, you need:
 1. AMX Mod X 1.8.2 or later (1.10+ is recommended)
 2. Metamod
 
+## Running a server
+
+Saving XP to MySQL (`wc3_save_xp_db`) uses the mysql module, which the release bundles enable. Set `wc3_sql_dbhost`, `wc3_sql_dbuser`, `wc3_sql_dbpass` and `wc3_sql_dbname`; the password can be at most 31 characters.
+
+On newer Linux distributions (glibc 2.41+, e.g. Ubuntu 26.04), Metamod cannot load AMX Mod X because its binaries request an executable stack, and AMX Mod X silently doesn't start. Clear the flag with `patchelf --clear-execstack addons/amxmodx/dlls/amxmodx_mm_i386.so`.
+
 ## Documentation
 
 [You can find all documentation right here on github](https://wc3mods.github.io/war3ft/)!

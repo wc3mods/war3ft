@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:bookworm
 
 ARG AMXX_VERSION
 ARG AMXX_BASE_URL

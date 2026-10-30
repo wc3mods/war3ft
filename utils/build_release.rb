@@ -212,6 +212,7 @@ class BuildService
       enable_module("engine")
       enable_module("fakemeta")
       enable_module("nvault")
+      enable_module("mysql")
 
       if game == "cstrike" || game == "czero"
         enable_module("cstrike")

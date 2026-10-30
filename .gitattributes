@@ -1,2 +1,3 @@
 *.sma linguist-language=Pawn
 *.inl linguist-language=Pawn
+*.inc linguist-language=Pawn
