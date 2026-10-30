@@ -20,7 +20,7 @@ To use this plugin, you need:
 
 ## Running a server
 
-Saving XP to MySQL (`wc3_save_xp_db`) uses the mysql module, which the release bundles enable. Set `wc3_sql_dbhost`, `wc3_sql_dbuser`, `wc3_sql_dbpass` and `wc3_sql_dbname`; the password can be at most 31 characters.
+Saving XP to MySQL (`wc3_save_xp_db`) needs the mysql module: uncomment `mysql` in `addons/amxmodx/configs/modules.ini` (bundles after v3.0.1 do this for you). Without it War3FT falls back to SQLite. Set `wc3_sql_dbhost`, `wc3_sql_dbuser`, `wc3_sql_dbpass` and `wc3_sql_dbname`; the password can be at most 31 characters.
 
 On newer Linux distributions (glibc 2.41+, e.g. Ubuntu 26.04), Metamod cannot load AMX Mod X because its binaries request an executable stack, and AMX Mod X silently doesn't start. Clear the flag with `patchelf --clear-execstack addons/amxmodx/dlls/amxmodx_mm_i386.so`.
 
