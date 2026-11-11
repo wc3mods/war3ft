@@ -241,6 +241,7 @@ class BuildService
   def clean
     FileUtils.rm_rf(Dir.glob("#{@build_dir}/*"))
     FileUtils.rm_rf(Dir.glob("#{@build_tmp_dir}/*"))
+    FileUtils.mkdir_p([@build_dir, @build_tmp_dir])
     FileUtils.mkdir_p(@releases_dir)
   end
 
@@ -268,7 +269,7 @@ OptionParser.new do |opts|
     options[:version] = v
   end
 
-  opts.on("-a", "--amxx-version AMXX_VERSION", "AMXX version to use (e.g. 1.10.0-git5467)") do |v|
+  opts.on("-a", "--amxx-version AMXX_VERSION", "AMXX version to use (e.g. 1.10.0-git5488)") do |v|
     options[:amxx_version] = v
   end
 
@@ -280,7 +281,7 @@ end.parse!
 # Validate required options
 unless options[:version]
   puts "ERROR: Version is required"
-  puts "Example: #{$0} --version 3.0.1 --amxx-version 1.10.0-git5467 [--rebuild-image]"
+  puts "Example: #{$0} --version 3.0.1 --amxx-version 1.10.0-git5488 [--rebuild-image]"
   exit 1
 end
 
@@ -308,7 +309,7 @@ if options[:amxx_version]
   service.run
 else
   # Build for all AMXX versions
-  ["1.8.2", "1.9.0-git5294", "1.10.0-git5467"].each do |amxx_version|
+  ["1.8.2", "1.9.0-git5294", "1.10.0-git5488"].each do |amxx_version|
     service = BuildService.new(
       version: options[:version],
       amxx_version: amxx_version,

@@ -17,7 +17,7 @@ This guide will help you install Warcraft 3 Frozen Throne (war3ft) for Counter-S
 3. **Warcraft 3 Frozen Throne Downloaded**: Obtain the latest version of the Warcraft 3 Frozen Throne plugin:
    - [Download war3ft](https://github.com/wc3mods/war3ft/releases)
 
-Note: There are packages available on github which have amdxmodx/metamod already configured. You can download that version (i.e. war3ft-v3.0.1-cstrike-amxmodx-1.10.0-git5467.zip), and just drop it into your game folder for the HLDS installation. Then you can skip the below sections.
+Note: There are packages available on github which have amdxmodx/metamod already configured. You can download that version (i.e. war3ft-v3.0.1-cstrike-amxmodx-1.10.0-git5488.zip), and just drop it into your game folder for the HLDS installation. Then you can skip the below sections.
 
 ## File Placement
 
