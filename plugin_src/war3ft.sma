@@ -351,16 +351,11 @@ public client_putinserver( id )
 		{
 			query_client_cvar( id, "cl_minmodels", "_CS_CheckMinModelsValue" );
 		}
-
-		if ( g_MOD == GAME_CZERO )
+		
+		if ( (pev(id, pev_flags) & FL_FAKECLIENT) && get_pcvar_num(CVAR_bot_quota) > 0 && !g_bCZBotRegisterHam )
 		{
-			// Only want to run this if: mod is CZ (zbot not supported), client is a bot,
-			// these are CZ bots (bot_quota), and the ham has not been registed yet.
-			if ( (pev(id, pev_flags) & FL_FAKECLIENT) && get_pcvar_num(CVAR_bot_quota) > 0 && !g_bCZBotRegisterHam )
-			{
-				// Delay for private data to initialize
-				set_task( 0.1, "CZ_BotHookHam", id )
-			}
+			// Delay for private data to initialize
+			set_task( 0.1, "CZ_BotHookHam", id )
 		}
 	}
 

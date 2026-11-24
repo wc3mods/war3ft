@@ -372,7 +372,7 @@ public on_BombStopPlanting( id )
 public CZ_BotHookHam( id )
 {
     // Thx to Avalanche and GunGame of which this method is based off of
-    if ( g_bCZBotRegisterHam || !is_user_connected(id) || g_MOD != GAME_CZERO )
+    if ( g_bCZBotRegisterHam || !is_user_connected(id) || (g_MOD != GAME_CZERO && g_MOD != GAME_CSTRIKE))
 		return;
 
 
